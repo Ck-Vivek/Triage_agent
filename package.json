@@ -1,0 +1,26 @@
+{
+  "name": "guardian-triage-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "@langchain/community": "^0.2.0",
+    "axios": "^1.7.0",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.0",
+    "hnswlib-node": "^2.0.0",
+    "langchain": "^0.2.0",
+    "ora": "^8.0.0",
+    "p-limit": "^5.0.0",
+    "playwright": "^1.43.0"
+  }
+}
